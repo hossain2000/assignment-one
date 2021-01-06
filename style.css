@@ -185,17 +185,21 @@ a{text-decoration: none;}
     display: table;
 }
 .resentw{
-    background-color: royalblue;
 }
 .work-photo{
     float: left;
-    width: 350px;
-    padding: 19px;
+    width: 345px;
+    padding: 14px;
+    background: white;
+    box-shadow: 0px 0px 11px 0px #e0e0e0;
+    border-radius: 5px;
+    font-family: 'Poppins';
+    margin: 5px;
 }
 .work-photo img{
     border-radius: 5px;
     margin: 10px;
-    width: 332px;
+    width: 318px;
     box-shadow: 0px 0px 20px 0px #ffffff12;
 }
 .dt h1{
@@ -244,5 +248,52 @@ a{text-decoration: none;}
     padding: 10px 30px;
     font-size: 20px;
     font-family: arial;
-    width: 86px;
+    width: 160px;
+}
+.st2{
+    margin-bottom: 50px !important;
+}
+.work-photo h2 {
+    font-size: 23px;
+}
+
+.work-photo p {
+    color: #818283;
+    font-size: 17px;
+    font-weight: 100;
+}
+.work-inquery {
+    width: 1000px;
+    background-image: url(icon/bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 22px;
+    border-radius: 30px;
+    margin: auto;
+    display: table;
+}
+
+.work-inquery h1 {
+    font-size: 72px;
+    font-family: 'Poppins';
+    color: white;
+    margin-left: 20px;
+    width: 564px;
+    float: left;
+}
+section.lets-chat {
+    padding: 150px;
+}
+.work-inquery a{
+    float: right;
+    width: 151px;
+    background: red;
+    color: white;
+    font-size: 30px;
+    font-family: 'Poppins';
+    padding: 10px 30px;
+    border-radius: 5px;
+    margin-top: 77px;
+    margin-right: 60px;
 }
